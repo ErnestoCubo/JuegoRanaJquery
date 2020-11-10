@@ -1,0 +1,31 @@
+#header{
+    padding: 10px;
+    text-align: center;
+    background: #337f7f;
+    background-color: #337f7f;
+    color: aqua;
+    font-size: 14px;
+    width: 680px;
+}
+.container{
+    display: flex; 
+    margin: 0;
+    padding: 0;   
+}
+.item{
+    display: flex;
+}
+.boton{
+    background:    #674ea7;
+    background:    linear-gradient(#337f7f, #674ea7 50%, #337f7f);
+    border:        2px solid #000000;
+    border-radius: 5px;
+    padding:       10px 20px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 16px/1 "Overlock", cursive;
+    text-align:    center;
+}
+.botonera{
+    padding: 5px;
+}
