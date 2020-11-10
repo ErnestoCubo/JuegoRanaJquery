@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Juego de las ranas en JQuery</title>
+        <link rel="stylesheet" href="static/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Juego de la rana</h1>
+        </div>
+        <div class="container">
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+        </div>
+        <div class="container">
+            <div class="item" id="H0"><img src="static/L.png" name="L" width="100" height="107"></div>
+            <div class="item" id="H1"><img src="static/L.png" name="L" width="100" height="107"></div>
+            <div class="item" id="H2"><img src="static/L.png" name="L" width="100" height="107"></div>
+            <div class="item" id="H3"><img src="static/B.png" name="B" width="100" height="107"></div>
+            <div class="item" id="H4"><img src="static/R.png" name="R" width="100" height="107"></div>
+            <div class="item" id="H5"><img src="static/R.png" name="R" width="100" height="107"></div>
+            <div class="item" id="H6"><img src="static/R.png" name="R" width="100" height="107"></div>
+        </div>
+        <div class="container">
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+            <div class="item"><img src="static/E.png" width="100" height="107"></div>
+        </div>
+        <div class="container">
+            <div class="botonera">
+                <button class="boton" id="refresh">refresh</button>
+            </div>
+            <div class="botonera">
+                <button class="boton" id="aleatorio">aleatorizar</button>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".item").click(function(){
+                    if($(this).attr("id").startsWith("H")){
+                        
+                    }
+                });
+                $(".boton").on({
+                    click: function(){
+                        if($(this).attr("id")==$("#refresh").attr("id")){
+                            location.reload();
+                        }
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
