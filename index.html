@@ -4,6 +4,7 @@
         <title>Juego de las ranas en JQuery</title>
         <link rel="stylesheet" href="static/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
     </head>
     <body>
         <div id="header">
@@ -44,22 +45,5 @@
                 <button class="boton" id="aleatorio">aleatorizar</button>
             </div>
         </div>
-
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $(".item").click(function(){
-                    if($(this).attr("id").startsWith("H")){
-                        
-                    }
-                });
-                $(".boton").on({
-                    click: function(){
-                        if($(this).attr("id")==$("#refresh").attr("id")){
-                            location.reload();
-                        }
-                    }
-                });
-            });
-        </script>
     </body>
 </html>
