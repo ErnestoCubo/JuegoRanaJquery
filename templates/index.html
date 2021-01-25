@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <title>RANAS</title>
+    <style>
+        .contenedor{
+            display:flex;
+            margin: 0;
+            padding-left: 330px;
+        }
+        .columna{
+            display:flex;
+        }
+        img{
+            width:100px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="row">
+            <div class="col-12 mt-5 text-center">
+                <h1 class="display-4">JUEGO RANAS</h1>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+        </div>
+        <div class="contenedor">
+            <div class="columna" id="0"><img class="itemL" src="../static/images/L.png"></div>
+            <div class="columna" id="1"><img class="itemL" src="../static/images/L.png"></div>
+            <div class="columna" id="2"><img class="itemL" src="../static/images/L.png"></div>
+            <div class="columna" id="3"><img class="itemB" src="../static/images/B.png"></div>
+            <div class="columna" id="4"><img class="itemR" src="../static/images/R.png"></div>
+            <div class="columna" id="5"><img class="itemR" src="../static/images/R.png"></div>
+            <div class="columna" id="6"><img class="itemR" src="../static/images/R.png"></div>
+        </div>
+        <div class="contenedor">
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+            <div class="columna"><img src="../static/images/E.png"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-3 offset"></div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary">Reiniciar</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-success">Resolver automático</button>
+            </div>           
+            <div class="col-3 offset"></div>
+        </div>
+    </section>
+
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous">  	
+    </script>
+    <script src="../static/scrpits/app.js"></script>
+</body>
+</html>
